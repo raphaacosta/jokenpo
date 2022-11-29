@@ -20,21 +20,21 @@ class _JokemPoHomeState extends State<JokemPoHome> {
           // crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             _textLable('Escolha do App'),
-            Image.asset('images/'),
+            Image.asset('../images/padrao.png'),
             _textLable('Quem venceu o jogo'),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Image.asset(
-                  'images/pedra.png',
+                  '../images/pedra.png',
                   height: 100,
                 ),
                 Image.asset(
-                  'images/tesoura.png',
+                  '../images/tesoura.png',
                   height: 100,
                 ),
                 Image.asset(
-                  'images/papel.png',
+                  '../images/papel.png',
                   height: 100,
                 ),
               ],
